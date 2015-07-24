@@ -9,6 +9,8 @@ set git="%git_path%cmd\git.exe"
 set prj_path=%~d0%~p0
 
 rem %wait% colors
+%git% config --local core.autocrlf false
+%git% config --local gui.encoding utf-8
 
 echo.
 %wait% color 0B
