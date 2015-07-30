@@ -26,7 +26,13 @@ public class MainActivity extends Activity {
     public void ClearClick(View v)
 
     {
-        Toast.makeText(this,"Clear Button Click",Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "Clear Button Click", Toast.LENGTH_LONG).show();
+    }
+
+    public void BackClick(View v)
+
+    {
+        Toast.makeText(this,"Back Button Click",Toast.LENGTH_LONG).show();
     }
 
     @Override

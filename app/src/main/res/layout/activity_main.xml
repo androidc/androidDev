@@ -41,7 +41,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/backspace"
                 android:id="@+id/button2"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:onClick="BackClick"/>
         </LinearLayout>
 
         <LinearLayout
